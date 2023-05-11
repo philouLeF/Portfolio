@@ -3,23 +3,23 @@
 @tailwind utilities;
 
 #app {
-  --color-background: 242 230 254;
-  --color-paper: 255 195 248;
-  --color-text-primary: 0 0 0;
-  --color-text-secondary: 38 38 38;
+  --color-background: 223 238 250;
+  --color-paper: 193 220 245;
+  --color-text-primary: 14 29 77;
+  --color-text-secondary: 76, 110, 162;
 
-  --color-primary: 234 0 255;
-  --color-secondary: 4 217 255;
+  --color-primary: 240 108 155;
+  --color-secondary: 240 108 155;
 }
 
 #app.dark {
-  --color-background: 24 3 46;
-  --color-paper: 40 5 75;
-  --color-text-primary: 255 255 255;
-  --color-text-secondary: 217 217 217;
+  --color-background: 14 29 77;
+  --color-paper: 24 43 93;
+  --color-text-primary: 223 238 250;
+  --color-text-secondary: 76 110 162;
 
-  --color-primary: 234 0 255;
-  --color-secondary: 4 217 255;
+  --color-primary: 240 108 155;
+  --color-secondary: 240 108 155;
 }
 
 #app {
