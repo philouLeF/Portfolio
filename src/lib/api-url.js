@@ -1,3 +1,5 @@
+import { GITHUB_USERNAME } from "getConfig.js";
+
 /**
  * To get all stargazed repositories of a user
  *
@@ -8,6 +10,7 @@ export const getListOfUrlRepositoriesUrl = (username) => {
   return `/api/pinnedGithubRepository?username=${username}`;
 };
 
+getListOfUrlRepositoriesUrl(GITHUB_USERNAME);
 /**
  * To get all comment use the "GET" method
  *
