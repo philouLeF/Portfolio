@@ -1,4 +1,4 @@
-import { GITHUB_USERNAME } from "getConfig.js";
+import { GITHUB_USERNAME } from "./config";
 
 /**
  * To get all stargazed repositories of a user
